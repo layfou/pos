@@ -48,4 +48,4 @@ inputBox.onkeyup = () => {
     });
   }
   
-fetchFunction();
+fetchButton.onclick = fetchFunction;
